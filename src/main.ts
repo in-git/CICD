@@ -12,6 +12,7 @@ const app = createApp(App);
 
 app.config.globalProperties.test = "1232"
 pinia.use(piniaPersist);
+console.log("change");
 
 /* 导入本地组件 */
 import myComponent from "./components/index"
